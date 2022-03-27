@@ -60,7 +60,7 @@ public class Classifications {
         // resultado de la prueba
       int result = (int) tree.classifyInstance(instance);
  
-      System.out.println("Nueva Instancia 1: " + PlayAttributeValues.newInstance(result));
+      System.out.println("Nueva instancia 1: " + PlayAttributeValues.newInstance(result));
 
       Classifier treeClassifier = new J48();
       Evaluation treeEvaluation = new Evaluation(instances);
@@ -86,7 +86,7 @@ public class Classifications {
       // resultado de la prueba
     int result2 = (int) tree.classifyInstance(instance2);
 
-       System.out.println("Nueva Instancia 2: " + PlayAttributeValues.newInstance(result2));
+       System.out.println("Nueva instancia 2: " + PlayAttributeValues.newInstance(result2));
    
         Classifier treeClassifier2 = new J48();
         Evaluation treeEvaluation2 = new Evaluation(instances);
@@ -111,7 +111,7 @@ public class Classifications {
         // resultado de la prueba
       int result3 = (int) tree.classifyInstance(instance3);
 
-         System.out.println("Nueva Instancia 3: " + PlayAttributeValues.newInstance(result3));
+         System.out.println("Nueva instancia 3: " + PlayAttributeValues.newInstance(result3));
      
           Classifier treeClassifier3 = new J48();
           Evaluation treeEvaluation3 = new Evaluation(instances);
